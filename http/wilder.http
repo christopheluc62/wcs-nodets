@@ -1,0 +1,19 @@
+GET http://localhost:5001/api/wilders
+
+###
+
+GET http://localhost:5001/api/wilders/3
+
+###
+
+POST http://localhost:5001/api/wilders
+Content-Type: application/json
+
+{ "name": "Christophe" }
+
+###
+
+DELETE http://localhost:5001/api/wilders/6
+
+###
+

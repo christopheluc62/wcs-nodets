@@ -1,0 +1,18 @@
+
+GET http://localhost:5001/api/skills
+
+###
+
+POST http://localhost:5001/api/skills
+Content-Type: application/json
+
+{ "name": "ReactJS" }
+
+###
+
+POST http://localhost:5001/api/wilders/3/skills
+Content-Type: application/json
+
+{
+  "skillId": 1
+}
